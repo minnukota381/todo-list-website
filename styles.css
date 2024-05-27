@@ -1,101 +1,89 @@
 body {
-  font-family: 'Rubik', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-image: url('https://www.sigarch.org/wp-content/uploads/2021/08/AdobeStock_272468948-scaled.jpeg');
-  background-size: cover;
-  background-attachment: fixed;
-  color: #fff;
-}
-
-h2 {
-  text-transform: uppercase;
-  color: white;
-}
-.col-md-4{
-  padding: 30px;
-}
-.card {
-  border: none;
-  color: white;
-  text-align: center;
-  border-radius: 16px !important;
-  box-shadow: 0 4px 8px rgb(255, 255, 255);
-  transition: all 0.3s ease;
-  background-color: rgba(70, 70, 70, 0.5); 
-  backdrop-filter: blur(10px);
-  height: 100%;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.jumbotron {
-  background: rgba(0, 0, 0, 0.6);
-  color: white;
-  text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-.jumbotron h1 {
-  font-size: 3rem;
-  font-weight: 700;
-  line-height: 1.2;
-  margin-bottom: 20px;
-}
-
-.jumbotron p {
-  font-size: 1.2rem;
-  margin-bottom: 30px;
-}
-
-.btn-primary {
-  background-color: #b700ff;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  border-color: #bf00ff;
-  transition: all 0.3s ease;
-  display: block;
-}
-
-.btn-primary:hover {
-  background-color: #45a049;
-  border-color: #45a049;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-footer {
-  background-color: rgba(0, 0, 0, 0.6);
-  color: #fff;
-  text-align: center;
-  padding: 20px 0;
-}
-
-
-@media (max-width: 767px) {
-  .jumbotron {
-      padding-top: 60px;
-      padding-bottom: 60px;
+    color: #fff;
+    background-image: url('https://images.pexels.com/photos/2736499/pexels-photo-2736499.jpeg?cs=srgb&dl=pexels-content-pixie-1405717-2736499.jpg&fm=jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
   }
-}
-
-.text-center {
-  text-align: center;
-}
-
-.font-weight-bold {
-  font-weight: bold;
-}
-
-.mb-4 {
-  margin-bottom: 1.5rem;
-}
-
-.mt-4 {
-  margin-top: 1.5rem;
-}
+  .navbar{
+    background-color: rgba(245, 245, 220, 0.8);
+  }
+  .navbar .navbar-brand{
+    color: #000;
+    font-weight: 900;
+  }
+  .card {
+    background-color: rgba(245, 245, 220, 0.8);
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 20px;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+  }
+  
+  .card-header {
+    background-color: rgba(218, 165, 32, 0.8);
+    color: #fff;
+  }
+  
+  .form-control {
+    background-color: rgba(255, 255, 255, 0.5); 
+    color: #333;
+    border: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .form-control:focus {
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .form-control::placeholder {
+    color: #999;
+  }
+  
+  .list-group-item {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #333;
+    border: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .list-group-item:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .list-group-item.checked {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  .btn-primary {
+    background-color: #4d7c0f;
+    border-color: #4d7c0f;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #3d6310;
+    border-color: #3d6310;
+  }
+  
+  .btn-danger {
+    background-color: #a52a2a;
+    border-color: #a52a2a;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+  }
+  
+  .btn-danger:hover {
+    background-color: #8b2525;
+    border-color: #8b2525;
+  }
