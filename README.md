@@ -31,11 +31,13 @@ Ensure you have a modern web browser (e.g., Chrome, Firefox, Safari) to run the 
 ### Installation
 
 1. Clone the repository:
+
     ```bash
     git clone https://github.com/minnukota381/todo-list-website.git
     ```
 
 2. Navigate to the project directory:
+
     ```bash
     cd todo-list-website
     ```
@@ -72,6 +74,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Contact
 
 For questions or support, please contact:
+
 - **GitHub**: [minnukota381](https://github.com/minnukota381)
 
 ---
