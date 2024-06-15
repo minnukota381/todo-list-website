@@ -32,12 +32,12 @@ Ensure you have a modern web browser (e.g., Chrome, Firefox, Safari) to run the 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/minnukota381/to-do-list.git
+    git clone https://github.com/minnukota381/todo-list-website.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd to-do-list
+    cd todo-list-website
     ```
 
 3. Open `index.html` in your web browser.
