@@ -1,4 +1,4 @@
-# Nep-Tasks Todo List App
+# NeptunE-Tasks Todo List App
 
 Nep-Tasks is a user-friendly web-based Todo List application designed to help you manage your tasks efficiently. The application is built with HTML, CSS, JavaScript, and utilizes Bootstrap for styling and FontAwesome for icons.
 
